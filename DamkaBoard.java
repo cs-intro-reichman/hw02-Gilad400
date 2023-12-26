@@ -25,8 +25,10 @@ public class DamkaBoard {
 		for(int j = 0; j < n; j++){
 			if(j % 2 != 0){
 				System.out.print(" ");
+				System.out.println(stars);
+			} else{
+				System.out.println(stars + " ");
 			}
-			System.out.println(stars);
 		}
 		
 		
