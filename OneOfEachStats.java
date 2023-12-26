@@ -70,5 +70,5 @@ public class OneOfEachStats {
 		System.out.println("Number of families with 4 or more children: " + four);
 		System.out.println(mostCommon);
 	}
-	}
+	
 }
