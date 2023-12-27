@@ -7,6 +7,7 @@ public class Reverse {
 		String str = args[0];
 		String reverseString = "";
 		int i = str.length() -1;
+		//A loop in which we will run on all str's chars and build a reverse String
 		while(i >= 0){
 			reverseString = reverseString + str.charAt(i);
 			i--;

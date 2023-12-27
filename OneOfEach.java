@@ -7,6 +7,7 @@ public class OneOfEach {
 	public static void main (String[] args) {
 		String children = "";
 		int sum = 0;
+		//A loop in which we genarate children until we have at least one of each
 		while((children.indexOf('g') == -1) || (children.indexOf('b') == -1)){
 			if(Math.random() < 0.5){
 				children = children + "g ";

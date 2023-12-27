@@ -6,6 +6,7 @@ public class Divisors {
 		int a = Integer.parseInt(args[0]);
 		int i = 1;
 		while(i <= a){
+			//Check if i is divides of a
 			if(a % i == 0){
 				System.out.println(i);
 			}
