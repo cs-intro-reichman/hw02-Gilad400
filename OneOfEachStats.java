@@ -25,7 +25,7 @@ public class OneOfEachStats {
 		//// randomization will be based on the given seed.
 		//// This is the only change that you have to do in the program.
 		   
-		int T = Integer.parseInt(args[0]);
+		
 		String children = "";
 		double totalSum = 0;
 		int two = 0;
